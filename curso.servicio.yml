@@ -13,6 +13,14 @@ eureka:
     metadata-map:
        app-owner: jsanhueza
        description: test application for the expert course
+       
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/otecMicro
+    username: root
+    password: 
+  jpa:
+    generate-ddl: true
 
 #security:
   #oauth2:
