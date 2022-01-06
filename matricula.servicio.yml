@@ -18,16 +18,3 @@ eureka:
   #oauth2:
     #resource:
       #user-info-uri: http://localhost:7777/user
-      
-spring:
-  jpa:
-    database: POSTGRESQL
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-  datasource:
-    platform: postgres
-    url: jdbc:postgresql://localhost:5432/otecmicro?currentSchema=otecmicro
-    username: postgres
-    password: admin
-    driverClassName: org.postgresql.Driver
