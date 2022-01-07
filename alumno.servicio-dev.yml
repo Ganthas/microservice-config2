@@ -1,6 +1,6 @@
 #HTTP Server
 server:
-  port: 3335
+  port: 1111
 
 #Discovery Server Access
 eureka:
@@ -18,21 +18,3 @@ eureka:
   #oauth2:
     #resource:
       #user-info-uri: http://localhost:7777/user
-
-spring:
-  jpa:
-    database: POSTGRESQL
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        jdbc:
-          lob:
-            non_contextual_creation: true
-  datasource:
-    platform: postgres
-    url: jdbc:postgresql://localhost:5432/otecmicro?currentSchema=otecmicro
-    username: postgres
-    password: admin
-    driverClassName: org.postgresql.Driver
